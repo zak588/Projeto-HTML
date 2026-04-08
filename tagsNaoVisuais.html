@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags Não Visuais</title>
+    <style>
+        div{
+            display: flex;
+            border: 1px solid #333;
+            border-radius: 12px;
+            margin: 10px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        span{
+            display: block;
+        }
+
+        .diferente{
+            font-weight: bold;
+            font-size: 30px;
+            color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tags Não Visuais</h1>
+
+<!--   
+        tags Semânticas:
+
+        section - agrupamento temático de conteúdo
+        article - conteúdo auto-contido
+        header - cabeçalho do documento
+        footer - rodapé do documento
+        nav - agrupa os links de navegação
+        aside - de lado (ex. sidebar). Relacionado com o conteúdo em volta (adendo).
+        details - exibe detalhes que pode ser exibidos ou escondidos
+
+        as famosas...
+        div - divisão do conteúdo
+        span - usado para agrupa elementos inline -->
+
+    <div>  
+        <p> Área 1</p>
+    </div>
+    <div>
+        <p> Área 2</p>
+    </div>
+
+    <p>
+        Esse é um texto com <span class="diferente">muitas palavras</span> e ponto.
+    </p>
+</body>
+</html>
